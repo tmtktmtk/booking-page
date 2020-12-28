@@ -158,8 +158,11 @@ button {
   transition-property: all;
   transition-duration: 0.8s;
   opacity: 0.4;
+  outline: none;
 }
-
+button:focus {
+  outline: none;
+}
 button:hover {
   opacity: 1;
 }
