@@ -11,12 +11,12 @@ function App() {
   return (
     <Fragment>
       <Menu />
-      <Banner />
+      {/* <Banner />
       <SpotlightItem />
       <SpotlightItemALT />
       <SpotlightItem />
       <Feature />
-      <Footer />
+      <Footer /> */}
     </Fragment>
   );
 }
