@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/booking-page/static/css/main.d74615e5.chunk.css",
-    "main.js": "/booking-page/static/js/main.86512f62.chunk.js",
-    "main.js.map": "/booking-page/static/js/main.86512f62.chunk.js.map",
+    "main.js": "/booking-page/static/js/main.6d736cdd.chunk.js",
+    "main.js.map": "/booking-page/static/js/main.6d736cdd.chunk.js.map",
     "runtime-main.js": "/booking-page/static/js/runtime-main.213c93f8.js",
     "runtime-main.js.map": "/booking-page/static/js/runtime-main.213c93f8.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/booking-page/static/css/2.20aa2d7b.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.b7c82f8e.chunk.js",
     "static/css/main.d74615e5.chunk.css",
-    "static/js/main.86512f62.chunk.js"
+    "static/js/main.6d736cdd.chunk.js"
   ]
 }
