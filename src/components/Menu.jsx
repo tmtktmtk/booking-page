@@ -17,7 +17,9 @@ class Menu extends Component {
           id="header"
           className={this.state.visible ? "fadeOut" : "fadeIn"}
         >
-          <button onClick={this.toggleMenu}>Menu</button>
+          <button className="menu" onClick={this.toggleMenu}>
+            Menu
+          </button>
         </header>
         <nav
           id="menu"
@@ -25,22 +27,22 @@ class Menu extends Component {
           onClick={this.toggleMenu}
         >
           <div>
-            <h2>menu</h2>
+            <p className="menutitle">MENU</p>
             <ul className="links">
               <li>
-                <a href="https://example.com/">Home</a>
+                <a href="#banner">Home</a>
               </li>
               <li>
-                <a href="https://example.com/">Our Rooms</a>
+                <a href="#one">Spotlights</a>
               </li>
               <li>
-                <a href="https://example.com/">Features</a>
+                <a href="#four">Features</a>
               </li>
               <li>
                 <a href="https://example.com/">Stay with us</a>
               </li>
               <li>
-                <a href="https://example.com/">Admin</a>
+                <a href="#footer">Admin</a>
               </li>
             </ul>
           </div>

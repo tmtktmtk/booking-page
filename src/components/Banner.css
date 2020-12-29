@@ -1,0 +1,23 @@
+@import "general.css";
+#banner {
+  padding: 8em 0 4.75em 0;
+  margin: 0 auto;
+  width: 55em;
+}
+
+h2 {
+  opacity: 1;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  font-size: 2.25em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+}
+
+p {
+  opacity: 1;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: 2;
+}

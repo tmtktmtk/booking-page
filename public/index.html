@@ -15,29 +15,19 @@
 
     <title>React App</title>
     <style>
-      body, html {
-        height: 100%;
-        margin: 0;
+      body {
+        background-color: #2e3141;
+        background-image: linear-gradient(to top, #2e3141, #2e3141d5),
+          url("../../images/bg.jpg");
+        background-size: auto, cover;
+        background-attachment: fixed, fixed;
+        background-position: center, center;
       }
-      
-      .bg {
-        /* The image used */
-        background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/110388-beige-and-turquoise-blurred-background-vector.jpg?w=800&q=95");
-      
-        /* Full height */
-        height: 100%; 
-      
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      </style>
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    
+
     <div id="root"></div>
-    <div class="bg"></div>
   </body>
 </html>
