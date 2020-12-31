@@ -8,7 +8,7 @@ class Navbar extends Component {
       <div className="container-fluid">
         <div style={{ margin: "50px 50px 50px 50px" }}>
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-6">
               <h4
                 style={{
                   textDecoration: "underline",
@@ -19,19 +19,24 @@ class Navbar extends Component {
                 </div>
               </h4>
             </div>
-            <div className="col-lg-8">
+            <div
+              className="col-lg-6"
+              style={{
+                justifyContent: "space-evenly",
+              }}
+            >
               <nav>
                 <div className="row">
-                  <div className="col-sm-3">
+                  <div className="col-3">
                     <button className="menu">About Us</button>
                   </div>
-                  <div className="col-sm-3">
+                  <div className="col-3">
                     <button className="menu">Spotlights</button>
                   </div>
-                  <div className="col-sm-3">
+                  <div className="col-3">
                     <button className="menu">Features</button>
                   </div>
-                  <div className="col-sm-3">
+                  <div className="col-3">
                     <button className="menu">Stay With Us</button>
                   </div>
                 </div>

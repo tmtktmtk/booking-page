@@ -29,14 +29,14 @@ section.slideshow img.slide-thumbnail {
 
 @media screen and (max-width: 960px) {
   section.slideshow section.slide-current {
-    width: 300px;
-    height: 450px;
+    width: 250px;
+    height: 375px;
     margin: auto 0px;
   }
 
   section.slideshow section.slide-next {
-    width: 150px;
-    height: 225px;
+    width: 125px;
+    height: 200px;
   }
 }
 
