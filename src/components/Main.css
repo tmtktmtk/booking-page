@@ -120,10 +120,10 @@ button.menu:hover {
   }
 
   .title {
-    margin: 25px 50px 0px 100px;
+    margin: 25px 25px 0px 100px;
   }
 
   .undertitle {
-    margin: 0px 50px 0px 0px;
+    margin: 0px 25px 0px 25px;
   }
 }
