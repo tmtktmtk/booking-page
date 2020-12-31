@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/booking-page/static/css/main.d74615e5.chunk.css",
-    "main.js": "/booking-page/static/js/main.6d736cdd.chunk.js",
-    "main.js.map": "/booking-page/static/js/main.6d736cdd.chunk.js.map",
+    "main.css": "/booking-page/static/css/main.c55255ff.chunk.css",
+    "main.js": "/booking-page/static/js/main.c8b2fbd9.chunk.js",
+    "main.js.map": "/booking-page/static/js/main.c8b2fbd9.chunk.js.map",
     "runtime-main.js": "/booking-page/static/js/runtime-main.213c93f8.js",
     "runtime-main.js.map": "/booking-page/static/js/runtime-main.213c93f8.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/booking-page/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.b7c82f8e.chunk.js": "/booking-page/static/js/2.b7c82f8e.chunk.js",
-    "static/js/2.b7c82f8e.chunk.js.map": "/booking-page/static/js/2.b7c82f8e.chunk.js.map",
+    "static/js/2.33c74074.chunk.js": "/booking-page/static/js/2.33c74074.chunk.js",
+    "static/js/2.33c74074.chunk.js.map": "/booking-page/static/js/2.33c74074.chunk.js.map",
     "index.html": "/booking-page/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/booking-page/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.d74615e5.chunk.css.map": "/booking-page/static/css/main.d74615e5.chunk.css.map",
-    "static/js/2.b7c82f8e.chunk.js.LICENSE.txt": "/booking-page/static/js/2.b7c82f8e.chunk.js.LICENSE.txt"
+    "static/css/main.c55255ff.chunk.css.map": "/booking-page/static/css/main.c55255ff.chunk.css.map",
+    "static/js/2.33c74074.chunk.js.LICENSE.txt": "/booking-page/static/js/2.33c74074.chunk.js.LICENSE.txt",
+    "static/media/bar.ff6aee49.webp": "/booking-page/static/media/bar.ff6aee49.webp",
+    "static/media/lobby.70ab37d5.webp": "/booking-page/static/media/lobby.70ab37d5.webp",
+    "static/media/nightskl.f7637b00.webp": "/booking-page/static/media/nightskl.f7637b00.webp",
+    "static/media/pool.0e843d11.webp": "/booking-page/static/media/pool.0e843d11.webp",
+    "static/media/restaurant.d76e514d.webp": "/booking-page/static/media/restaurant.d76e514d.webp",
+    "static/media/room.0216ca8a.webp": "/booking-page/static/media/room.0216ca8a.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.213c93f8.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.b7c82f8e.chunk.js",
-    "static/css/main.d74615e5.chunk.css",
-    "static/js/main.6d736cdd.chunk.js"
+    "static/js/2.33c74074.chunk.js",
+    "static/css/main.c55255ff.chunk.css",
+    "static/js/main.c8b2fbd9.chunk.js"
   ]
 }
