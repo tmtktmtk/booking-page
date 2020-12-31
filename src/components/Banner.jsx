@@ -23,7 +23,7 @@ class Banner extends Component {
                 Deserunt voluptate
               </h2>
             </div>
-            <div style={{ margin: "0px 50px 50px 200px" }}>
+            <div className="undertitle">
               <p className="lead text-right">
                 Esse tempor dolor tempor laborum laboris. Sit et et consequat ex
                 nulla qui. Qui esse irure duis deserunt culpa.

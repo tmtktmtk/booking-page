@@ -9,13 +9,17 @@ class Navbar extends Component {
         <div style={{ margin: "50px 50px 50px 50px" }}>
           <div className="row">
             <div className="col-lg-6">
-              <h4
-                style={{
-                  textDecoration: "underline",
-                }}
-              >
+              <h4>
                 <div>
-                  <FontAwesomeIcon icon={faHotel} size="lg" />
+                  <p
+                    style={{
+                      fontSize: "125%",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faHotel} size="lg" />:
+                    Reprehenderitsint
+                  </p>
                 </div>
               </h4>
             </div>
