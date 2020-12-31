@@ -1,23 +1,23 @@
-import Menu from "./components/Menu.jsx";
 import "@fortawesome/react-fontawesome";
-import { Fragment } from "react";
 import Banner from "./components/Banner.jsx";
-import SpotlightItem from "./components/SpotlightItem.jsx";
-import SpotlightItemALT from "./components/SpotlightItemALT.jsx";
-import Feature from "./components/Feature.jsx";
 import Footer from "./components/Footer.jsx";
+import Navbar from "./components/Navbar.jsx";
+import "./components/Main.css";
+import bg from "./images/nightskl.webp";
 
 function App() {
+  const style = {
+    backgroundImage: "url(" + bg + ")",
+  };
   return (
-    <Fragment>
-      <Menu />
-      {/* <Banner />
-      <SpotlightItem />
-      <SpotlightItemALT />
-      <SpotlightItem />
-      <Feature />
-      <Footer /> */}
-    </Fragment>
+    <div className="page-wrapper">
+      <div className="background" style={style}></div>
+      <div>
+        <Navbar />
+        <Banner />
+        <Footer />
+      </div>
+    </div>
   );
 }
 

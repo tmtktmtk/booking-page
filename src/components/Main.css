@@ -1,0 +1,94 @@
+* {
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: rgba(245, 245, 245, 0.829);
+}
+
+.page-wrapper {
+  margin: 25px 50px 25px 50px;
+  border-radius: 24px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+div.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  z-index: -9999;
+  border-radius: 24px;
+  animation: zoominout 40s 1s linear infinite;
+}
+
+@keyframes zoominout {
+  0%,
+  2% {
+    transform: scale(1);
+  }
+  47%,
+  53% {
+    transform: scale(2);
+  }
+
+  98%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+div {
+  text-align: center;
+  border: 1px transparent solid;
+}
+
+button.menu {
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.123);
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  border-style: hidden hidden solid hidden;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition-property: all;
+  transition-duration: 0.8s;
+  opacity: 0.4;
+}
+.icon:focus,
+button.menu:focus {
+  outline: none;
+}
+.icon:hover,
+button.menu:hover {
+  opacity: 1;
+}
+
+.icon {
+  background-color: rgba(0, 0, 0, 0.123);
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+#fadeIn {
+  animation: fade 5s ease;
+}
+
+@keyframes fade {
+  0%,
+  38% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
