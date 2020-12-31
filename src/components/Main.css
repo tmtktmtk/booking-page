@@ -102,7 +102,7 @@ button.menu:hover {
 
 .icon {
   background-color: rgba(0, 0, 0, 0.123);
-  border: 1px solid white;
+  border: 1px solid transparent;
   margin: 100px 10px 0px 10px;
 }
 
