@@ -27,6 +27,19 @@ section.slideshow img.slide-thumbnail {
   box-shadow: 5px 5px 6px #0303039c;
 }
 
+@media screen and (max-width: 960px) {
+  section.slideshow section.slide-current {
+    width: 300px;
+    height: 450px;
+    margin: auto 0px;
+  }
+
+  section.slideshow section.slide-next {
+    width: 150px;
+    height: 225px;
+  }
+}
+
 #transition1 {
   animation: fademoveoutin 8s 7s infinite;
 }

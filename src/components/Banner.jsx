@@ -12,15 +12,18 @@ class Banner extends Component {
       <div className="container-fluid">
         <div className="row" id="fadeIn">
           <div className="col-lg-6">
-            <div style={{ margin: "100px 100px 50px 200px" }}>
-              <h1
+            <div className="title">
+              <h2
                 className="text-right"
                 style={{
                   textTransform: "uppercase",
+                  letterSpacing: "0em",
                 }}
               >
                 Deserunt voluptate
-              </h1>
+              </h2>
+            </div>
+            <div style={{ margin: "0px 50px 50px 200px" }}>
               <p className="lead text-right">
                 Esse tempor dolor tempor laborum laboris. Sit et et consequat ex
                 nulla qui. Qui esse irure duis deserunt culpa.

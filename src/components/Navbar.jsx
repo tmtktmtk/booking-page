@@ -22,16 +22,16 @@ class Navbar extends Component {
             <div className="col-lg-8">
               <nav>
                 <div className="row">
-                  <div className="col-md-3">
+                  <div className="col-sm-3">
                     <button className="menu">About Us</button>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-sm-3">
                     <button className="menu">Spotlights</button>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-sm-3">
                     <button className="menu">Features</button>
                   </div>
-                  <div className="col-md-3">
+                  <div className="col-sm-3">
                     <button className="menu">Stay With Us</button>
                   </div>
                 </div>
