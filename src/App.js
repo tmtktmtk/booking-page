@@ -12,7 +12,7 @@ function App() {
   const style = {
     backgroundImage: "url(" + bg + ")",
   };
-  const [navId, setNavId] = React.useState(1);
+  const [navId, setNavId] = React.useState(0);
   console.log(navId);
   function changeId(newId) {
     setNavId(newId);
