@@ -6,13 +6,13 @@ section.slideshow div.slide-holder {
   justify-content: space-evenly;
   align-items: flex-end;
   flex-direction: row;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 43px;
+  margin-bottom: 44px;
 }
 section.slideshow section.slide-current {
   width: 400px;
   height: 550px;
-  margin: auto 0px;
+  margin: auto 20px;
 }
 
 section.slideshow section.slide-next {

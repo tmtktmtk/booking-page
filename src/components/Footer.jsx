@@ -12,7 +12,7 @@ class Footer extends Component {
       <div className="container-fluid">
         <div style={{ margin: "50px 100px 50px 50px" }}>
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-lg-8">
               <div className="row" style={{ margin: "0px 0px 20px 0px" }}>
                 <div className="col-4">
                   <h6
@@ -46,25 +46,35 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4">
               <div className="row">
                 <div className="col-3"></div>
                 <div className="col-3">
-                  <FontAwesomeIcon
-                    icon={faFacebook}
-                    className="icon"
-                    size="lg"
-                  />
+                  <a href="https://example.com/">
+                    <FontAwesomeIcon
+                      icon={faFacebook}
+                      className="icon"
+                      size="lg"
+                    />
+                  </a>
                 </div>
                 <div className="col-3">
-                  <FontAwesomeIcon
-                    icon={faLinkedin}
-                    className="icon"
-                    size="lg"
-                  />
+                  <a href="https://example.com/">
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="icon"
+                      size="lg"
+                    />
+                  </a>
                 </div>
                 <div className="col-3">
-                  <FontAwesomeIcon icon={faGithub} className="icon" size="lg" />
+                  <a href="https://example.com/">
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      className="icon"
+                      size="lg"
+                    />
+                  </a>
                 </div>
               </div>
               <div></div>
