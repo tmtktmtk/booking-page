@@ -33,7 +33,9 @@ function Navbar(props) {
             <nav>
               <div className="row">
                 <div className="col-3">
-                  <button className="menu">Stay With Us</button>
+                  <a href="https://pwtest2020.planethoster.world/staywithus.html">
+                    <button className="menu">Stay With Us</button>
+                  </a>
                 </div>
                 <div className="col-3">
                   <button className="menu" onClick={() => props.onChange(1)}>

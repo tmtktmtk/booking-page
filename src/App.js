@@ -10,7 +10,10 @@ import React, { useState, useEffect } from "react";
 import About from "./About.jsx";
 function App() {
   const style = {
-    backgroundImage: "url(" + bg + ")",
+    backgroundImage:
+      "linear-gradient( rgba(0, 0, 0, 0.6),  rgba(0, 20, 20, 0.7)), url(" +
+      bg +
+      ")",
   };
 
   const [date, setDate] = useState(new Date());
