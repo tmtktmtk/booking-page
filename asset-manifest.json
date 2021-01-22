@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/booking-page/static/css/main.3ba97d16.chunk.css",
-    "main.js": "/booking-page/static/js/main.27e0e7c3.chunk.js",
-    "main.js.map": "/booking-page/static/js/main.27e0e7c3.chunk.js.map",
+    "main.css": "/booking-page/static/css/main.5a88a8f8.chunk.css",
+    "main.js": "/booking-page/static/js/main.504d6208.chunk.js",
+    "main.js.map": "/booking-page/static/js/main.504d6208.chunk.js.map",
     "runtime-main.js": "/booking-page/static/js/runtime-main.213c93f8.js",
     "runtime-main.js.map": "/booking-page/static/js/runtime-main.213c93f8.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/booking-page/static/css/2.20aa2d7b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.6543d8c8.chunk.js.map": "/booking-page/static/js/2.6543d8c8.chunk.js.map",
     "index.html": "/booking-page/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/booking-page/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.3ba97d16.chunk.css.map": "/booking-page/static/css/main.3ba97d16.chunk.css.map",
+    "static/css/main.5a88a8f8.chunk.css.map": "/booking-page/static/css/main.5a88a8f8.chunk.css.map",
     "static/js/2.6543d8c8.chunk.js.LICENSE.txt": "/booking-page/static/js/2.6543d8c8.chunk.js.LICENSE.txt",
     "static/media/bar.ff6aee49.webp": "/booking-page/static/media/bar.ff6aee49.webp",
     "static/media/lobby.70ab37d5.webp": "/booking-page/static/media/lobby.70ab37d5.webp",
@@ -22,6 +22,7 @@
     "static/media/p05.a064b73c.jpg": "/booking-page/static/media/p05.a064b73c.jpg",
     "static/media/p06.6ff05930.jpg": "/booking-page/static/media/p06.6ff05930.jpg",
     "static/media/pool.0e843d11.webp": "/booking-page/static/media/pool.0e843d11.webp",
+    "static/media/pwtruongdrouetchen.ca6560e2.rar": "/booking-page/static/media/pwtruongdrouetchen.ca6560e2.rar",
     "static/media/restaurant.d76e514d.webp": "/booking-page/static/media/restaurant.d76e514d.webp",
     "static/media/room.0216ca8a.webp": "/booking-page/static/media/room.0216ca8a.webp",
     "static/media/video.5d2a5a03.mp4": "/booking-page/static/media/video.5d2a5a03.mp4"
@@ -30,7 +31,7 @@
     "static/js/runtime-main.213c93f8.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.6543d8c8.chunk.js",
-    "static/css/main.3ba97d16.chunk.css",
-    "static/js/main.27e0e7c3.chunk.js"
+    "static/css/main.5a88a8f8.chunk.css",
+    "static/js/main.504d6208.chunk.js"
   ]
 }
