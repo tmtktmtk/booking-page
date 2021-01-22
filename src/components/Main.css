@@ -147,7 +147,7 @@ button.menu:hover {
   }
 }
 
-.child {
+.fitem {
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -156,7 +156,7 @@ button.menu:hover {
   transition: all 0.5s;
 }
 
-.parent {
+.itemcontainer {
   width: 45%;
   margin: 0px 0px 10px 10px;
   height: 198px;
@@ -167,9 +167,70 @@ button.menu:hover {
   display: inline-block;
   cursor: pointer;
 }
-.parent:hover .child,
-.parent:focus .child {
+.itemcontainer:hover .fitem,
+.itemcontainer:focus .fitem {
   transform: scale(1.2);
+}
+
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition-property: all;
+  transition-duration: 1s;
+  visibility: hidden;
+}
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  transition-property: all;
+  transition-duration: 1s;
+  visibility: visible;
+}
+
+#itemoverlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  background: rgba(15, 7, 0, 0.8);
+  cursor: default;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.circlecontainer {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.circlecontainer img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.textcontainer {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.textcontainer p {
+  margin: 8% 30% 8% 8%;
 }
 
 @media screen and (max-width: 960px) {
@@ -215,7 +276,7 @@ button.menu:hover {
     margin: 150px 75px 150px 75px;
   }
 
-  .parent {
+  .itemcontainer {
     width: 95%;
     margin: 0px 0px 10px 10px;
     height: 80px;
@@ -224,5 +285,21 @@ button.menu:hover {
     overflow: hidden;
     position: relative;
     display: block;
+  }
+  .circlecontainer {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .textcontainer p {
+    margin: 5% 5% 5% 5%;
   }
 }
