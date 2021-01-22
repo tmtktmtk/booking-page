@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/booking-page/static/css/main.c78c3de8.chunk.css",
-    "main.js": "/booking-page/static/js/main.2f679f0d.chunk.js",
-    "main.js.map": "/booking-page/static/js/main.2f679f0d.chunk.js.map",
+    "main.css": "/booking-page/static/css/main.3ba97d16.chunk.css",
+    "main.js": "/booking-page/static/js/main.27e0e7c3.chunk.js",
+    "main.js.map": "/booking-page/static/js/main.27e0e7c3.chunk.js.map",
     "runtime-main.js": "/booking-page/static/js/runtime-main.213c93f8.js",
     "runtime-main.js.map": "/booking-page/static/js/runtime-main.213c93f8.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/booking-page/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.2bf27f82.chunk.js": "/booking-page/static/js/2.2bf27f82.chunk.js",
-    "static/js/2.2bf27f82.chunk.js.map": "/booking-page/static/js/2.2bf27f82.chunk.js.map",
+    "static/js/2.6543d8c8.chunk.js": "/booking-page/static/js/2.6543d8c8.chunk.js",
+    "static/js/2.6543d8c8.chunk.js.map": "/booking-page/static/js/2.6543d8c8.chunk.js.map",
     "index.html": "/booking-page/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/booking-page/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.c78c3de8.chunk.css.map": "/booking-page/static/css/main.c78c3de8.chunk.css.map",
-    "static/js/2.2bf27f82.chunk.js.LICENSE.txt": "/booking-page/static/js/2.2bf27f82.chunk.js.LICENSE.txt",
+    "static/css/main.3ba97d16.chunk.css.map": "/booking-page/static/css/main.3ba97d16.chunk.css.map",
+    "static/js/2.6543d8c8.chunk.js.LICENSE.txt": "/booking-page/static/js/2.6543d8c8.chunk.js.LICENSE.txt",
     "static/media/bar.ff6aee49.webp": "/booking-page/static/media/bar.ff6aee49.webp",
     "static/media/lobby.70ab37d5.webp": "/booking-page/static/media/lobby.70ab37d5.webp",
     "static/media/nightskl.f7637b00.webp": "/booking-page/static/media/nightskl.f7637b00.webp",
+    "static/media/p01.f8ca1560.jpg": "/booking-page/static/media/p01.f8ca1560.jpg",
+    "static/media/p02.cc64dd45.jpg": "/booking-page/static/media/p02.cc64dd45.jpg",
+    "static/media/p03.42a494c2.jpg": "/booking-page/static/media/p03.42a494c2.jpg",
+    "static/media/p04.698cb46f.jpg": "/booking-page/static/media/p04.698cb46f.jpg",
+    "static/media/p05.a064b73c.jpg": "/booking-page/static/media/p05.a064b73c.jpg",
+    "static/media/p06.6ff05930.jpg": "/booking-page/static/media/p06.6ff05930.jpg",
     "static/media/pool.0e843d11.webp": "/booking-page/static/media/pool.0e843d11.webp",
     "static/media/restaurant.d76e514d.webp": "/booking-page/static/media/restaurant.d76e514d.webp",
     "static/media/room.0216ca8a.webp": "/booking-page/static/media/room.0216ca8a.webp",
@@ -23,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.213c93f8.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.2bf27f82.chunk.js",
-    "static/css/main.c78c3de8.chunk.css",
-    "static/js/main.2f679f0d.chunk.js"
+    "static/js/2.6543d8c8.chunk.js",
+    "static/css/main.3ba97d16.chunk.css",
+    "static/js/main.27e0e7c3.chunk.js"
   ]
 }
