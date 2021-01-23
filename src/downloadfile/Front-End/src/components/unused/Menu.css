@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import "general.css";
+p.menutitle {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 125%;
+  vertical-align: baseline;
+  color: #f1eaea;
+  padding-bottom: 0.5em;
+  border-bottom: solid 1px whitesmoke;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: 1.85em;
+}
+
+li,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+ul li {
+  padding-left: 0.5em;
+}
+
+a {
+  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out,
+    border-bottom-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+
+a:hover {
+  border-bottom-color: transparent;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  background: rgba(15, 7, 0, 0.8);
+  cursor: default;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  border: 1px solid white;
+}
+
+#menu .links {
+  list-style: none;
+  margin-bottom: 1.5em;
+  padding: 0;
+}
+
+#menu .links li {
+  padding: 0;
+}
+
+#menu .links li a {
+  border-radius: 5px;
+  border: 0;
+  display: block;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  line-height: 1.85em;
+  padding: 0.75em 0;
+  text-transform: uppercase;
+}
+
+#menu .links li a:hover {
+  background: #151516;
+}
+
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition-property: all;
+  transition-duration: 1s;
+  visibility: hidden;
+}
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  transition-property: all;
+  transition-duration: 1s;
+  visibility: visible;
+}
+
+#header {
+  background: transparent;
+  height: 3em;
+  left: 0;
+  line-height: 1.75em;
+  padding: 0.5em 1.25em;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+button.menu {
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  position: absolute;
+  right: 0.7em;
+  background-color: rgba(0, 0, 0, 0.123);
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  border-style: hidden hidden solid hidden;
+  color: white;
+  padding: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition-property: all;
+  transition-duration: 0.8s;
+  opacity: 0.4;
+}
+button.menu:focus {
+  outline: none;
+}
+button.menu:hover {
+  opacity: 1;
+}

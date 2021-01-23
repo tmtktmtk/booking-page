@@ -33,7 +33,7 @@ function Navbar(props) {
             <nav>
               <div className="row">
                 <div className="col-3">
-                                    <a href="https://pwtest2020.planethoster.world/staywithus.html">
+                  <a href="https://pwtest2020.planethoster.world/staywithus.html">
                     <button className="menu">Stay With Us</button>
                   </a>
                 </div>

@@ -2,12 +2,12 @@ import "@fortawesome/react-fontawesome";
 import Banner from "./components/Banner.jsx";
 import Footer from "./components/Footer.jsx";
 import Navbar from "./components/Navbar.jsx";
-import "./components/Main.css";
+import "./Main.css";
 import bg from "./images/nightskl.webp";
 import Spotlights from "./components/Spotlights.jsx";
 import Features from "./components/Features.jsx";
 import React, { useState } from "react";
-import About from "./About.jsx";
+import About from "./components/About.jsx";
 function App() {
   const style = {
     backgroundImage:
